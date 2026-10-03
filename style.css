@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(123, 198, 248);
+}
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.choices{
+    display: flex;
+    justify-content: center;
+   gap: 5rem;
+    margin-top: 2rem;
+}
+#rock,#paper,#scissors{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    border:5rem solid black;
+   /* margin:5rem;*/
+    background-color: red;
+    border: 1px solid black;
+
+}
+#rock{
+    background-image: url(rock.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#paper{
+    background-image: url(paper.jpg);
+    background-size: cover;
+}
+#scissors{
+    background-image: url(sissor.webp);
+    background-size: cover;
+}
+#rock:active{
+    background-image: url(rockMeme.jpg);
+}
+#paper:active{
+    background-image: url(paperMeme.jpg);
+    background-size: cover;
+}
+#scissors:active{
+    background-image: url(sissorMeme.jpg);
+}
+.score{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 3rem;
+}
+#yourscore,#computerscore{
+    font-size: 2rem;
+}
+.msg{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.result{
+    
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    display:inline;
+    color: white;
+    border-radius: 10px;
+    padding:1rem;
+   
+
+}
